@@ -1,8 +1,8 @@
-# 🧠 Cookie Cats Retention Analysis
+# Cookie Cats Retention Analysis
 
 This project analyzes player retention in the mobile puzzle game **Cookie Cats** through A/B testing and predictive modeling. The goal is to evaluate how changing the progression gate from level 30 to 40 impacts retention, and to predict which users are likely to return after 1 or 7 days.
 
-🎯 Built for portfolio demonstration and aligned with real-world product analytics expectations (e.g., Dream Games Data Scientist position).
+Built for portfolio demonstration and aligned with real-world product analytics expectations.
 
 ---
 
@@ -54,7 +54,7 @@ This project analyzes player retention in the mobile puzzle game **Cookie Cats**
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 | Model               | 1-Day ROC AUC | 7-Day ROC AUC |
 |--------------------|---------------|---------------|
@@ -69,7 +69,7 @@ This project analyzes player retention in the mobile puzzle game **Cookie Cats**
 
 ---
 
-## 📌 Business Recommendations
+## Business Recommendations
 
 - **Gate Strategy**: Shift to `gate_40` for improved onboarding retention.
 - **Target High-Value Players**: Segment and reward users with >100 game rounds.
@@ -78,11 +78,11 @@ This project analyzes player retention in the mobile puzzle game **Cookie Cats**
 
 ---
 
-## 💡 Possible Extensions
+## Possible Extensions
 
 - Hyperparameter tuning (e.g. GridSearchCV)
 - Cohort analysis by install date or region
 - Streamlit or Dash-based model deployment
 - Real-time monitoring dashboard with Tableau/Power BI
 
----# Cookie-Cats-Churn-Prediction
+---
